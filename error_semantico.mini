@@ -1,0 +1,9 @@
+// Este programa tiene 4 errores semánticos a propósito.
+// Pruébalo: python main.py error_semantico.mini
+var x: entero = 5;
+var x: entero = 6;
+var texto: cadena = 10;
+z = x + 1;
+si (x) {
+    escribir("hola");
+}

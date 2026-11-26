@@ -1,0 +1,12 @@
+// Serie de Fibonacci: imprime los primeros 10 términos
+var n: entero = 10;
+var a: entero = 0;
+var b: entero = 1;
+
+mientras (n > 0) {
+    escribir(a);
+    var siguiente: entero = a + b;
+    a = b;
+    b = siguiente;
+    n = n - 1;
+}

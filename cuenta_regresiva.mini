@@ -1,0 +1,5 @@
+var n: entero = 3;
+mientras (n > 0) {
+    escribir(n);
+    n = n - 1;
+}

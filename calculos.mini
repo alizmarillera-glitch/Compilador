@@ -1,0 +1,23 @@
+// Tipos, operadores lógicos, si / sino si / sino y ámbitos
+var precio: decimal = 20.5;
+var cantidad: entero = 3;
+var total: decimal = precio * cantidad;
+
+escribir("Total: " + total);
+
+si (total > 100) {
+    escribir("Descuento grande");
+} sino si (total > 50 y no (cantidad == 0)) {
+    escribir("Descuento normal");
+} sino {
+    escribir("Sin descuento");
+}
+
+var x: entero = 1;
+{
+    var x: entero = 2;   // otra variable x, solo existe dentro del bloque
+    escribir("x interna = " + x);
+}
+escribir("x externa = " + x);
+escribir(7 / 2);         // división entera: 3
+escribir(7 / 2.0);       // división decimal: 3.5
